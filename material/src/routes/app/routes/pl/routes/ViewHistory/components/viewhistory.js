@@ -67,7 +67,7 @@ const tableData = [
 
 const Projects = () => (
   <article className="article">
-    <h2 className="article-title">Projects Listing</h2>
+    <h2 className="article-title">View History</h2>
     <div className="box box-default table-box table-responsive mdl-shadow--2dp">
       <table className="mdl-data-table">
         <thead>
@@ -84,21 +84,21 @@ const Projects = () => (
         </thead>
         <tbody>
 
-          {tableData.map((row,index) => (
-            <tr>
-              <td className="mdl-data-table__cell--non-numeric">{row.projectID}</td>
-              <td className="mdl-data-table__cell--non-numeric" ><a href="#/app/pl/ViewHistory">{row.projectTitle}</a></td>
+        {tableData.map((row,index) => (
+          <tr>
+            <td className="mdl-data-table__cell--non-numeric">{row.projectID}</td>
+            <td className="mdl-data-table__cell--non-numeric" ><a href="#/app/pl/ViewHistory">{row.projectTitle}</a></td>
 
 
-              <td className="mdl-data-table__cell--non-numeric">{row.howManyMembers} </td>
-                <td className="mdl-data-table__cell--non-numeric">{row.createdBy} </td>
-                <td className="mdl-data-table__cell--non-numeric">{row.createDate} </td>
-                <td className="mdl-data-table__cell--non-numeric">{row.relatedArea} </td>
+            <td className="mdl-data-table__cell--non-numeric">{row.howManyMembers} </td>
+            <td className="mdl-data-table__cell--non-numeric">{row.createdBy} </td>
+            <td className="mdl-data-table__cell--non-numeric">{row.createDate} </td>
+            <td className="mdl-data-table__cell--non-numeric">{row.relatedArea} </td>
 
 
 
-            </tr>
-            ))}
+          </tr>
+        ))}
 
         </tbody>
       </table>

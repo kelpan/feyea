@@ -3,6 +3,9 @@ import { Route } from 'react-router-dom';
 
 import AddProject from './routes/AddProject/'
 import Project from './routes/ProjectListing/'
+import ViewHistory from './routes/ViewHistory/'
+
+
 
 
 
@@ -11,6 +14,8 @@ const Table = ({ match }) => (
   <div>
     <Route path={`${match.url}/ProjectListing`} component={Project}/>
     <Route path={`${match.url}/AddProject`} component={AddProject}/>
+    <Route path={`${match.url}/ViewHistory`} component={ViewHistory}/>
+
   </div>
 )
 

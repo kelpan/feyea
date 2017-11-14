@@ -2,18 +2,23 @@ import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import QueueAnim from 'rc-queue-anim';
 import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn, TableFooter} from 'material-ui/Table';
-
+import DropDownMenu from 'material-ui/DropDownMenu';
+import MenuItem from 'material-ui/MenuItem';
 
 import TextField from 'material-ui/TextField';
 import Toggle from 'material-ui/Toggle';
 
 const AddProjectForm = () => (
   <article className="article">
-    <h2 className="article-title">Add Project</h2>
+    <h2 className="article-title">Create a New Project</h2>
     <div className="box box-default">
       <div className="box-body padding-xl">
-
         <form role="form">
+          <label>I am:
+            <div className="form-group">
+              <Createby />
+            </div>
+          </label>
           <div className="form-group">
             <label htmlFor="exampleInputEmail1">Project Title</label>
             <input type="projectTitle" className="form-control" id="projectTitle" placeholder="Enter Project Title" />
@@ -22,6 +27,7 @@ const AddProjectForm = () => (
           <div className="form-group">
             <RelatedArea />
           </div>
+
           <div className="form-group">
             <label htmlFor="exampleInputPassword1">Description</label>
             <input type="projectDes" className="form-control" id="projectDes" placeholder="Enter Project Description" />
@@ -39,9 +45,43 @@ const AddProjectForm = () => (
 
 
 
-// Cmplex example
+//created by
+const styles = {
+  customWidth: {
+    width: 200,
+  },
+};
 
+class Createby extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {value: 1};
+  }
+
+  handleChange = (event, index, value) => this.setState({value});
+
+  render() {
+    return (
+
+      <div>
+        <DropDownMenu
+          value={this.state.value}
+          onChange={this.handleChange}
+          style={styles.customWidth}
+          autoWidth={false}
+        >
+          <MenuItem value={1} primaryText="Student" />
+          <MenuItem value={2} primaryText="Professor" />
+          <MenuItem value={3} primaryText="Alumni" />
+          <MenuItem value={4} primaryText="Company" />
+        </DropDownMenu>
+      </div>
+    );
+  }
+}
+
+//related area
 const tableData = [
   {
     name: 'Software'
