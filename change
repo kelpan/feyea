@@ -1,0 +1,17 @@
+
+/************2017.11.13*****************/
+SidenavContent.js
+
+table/index.js
+
+MainApp.js
+
+/Users/jiayingwang/496_template_backup/material/src/containers/App.js
+    change homepage to projectlisting
+
+./components
+    ./constants/config.js
+    Change brand->ECE496
+
+    ./Sidenav/index.js
+     delete logo
