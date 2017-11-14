@@ -10,6 +10,9 @@ import App from './containers/App';
 
 import Page404 from 'routes/404/components/404'
 
+
+
+
 const history = createHistory();
 const middleware = routerMiddleware(history);
 
