@@ -35,12 +35,14 @@ function addProjects(quantity) {
     const id = startId + i;
     Projects.push({
       id: id,
-      name: 'Project title ' + id,
+      name: '+ Project title ' + id,
       status: Math.floor((Math.random() * 100) + 1)%2,
       createdby: Math.floor((Math.random() * 100) + 1) % 4,
       createDate: date,
-      more: '&nbsp;'
-
+      more: '&nbsp;',
+      expand: [ {
+        fieldA: 'This is a full description for Project'+id
+      }]
     });
   }
 }
@@ -66,6 +68,19 @@ function moreFormatter(cell, row) {
   return `<a href="#/app/pl/ViewHistory">Show Details</a> ${cell}`;
 }
 
+//row expansion
+class BSTable extends React.Component {
+  render() {
+    if (this.props.data) {
+      return (
+        <BootstrapTable data={ this.props.data }>
+          <TableHeaderColumn dataField='fieldA' isKey={ true }>Description</TableHeaderColumn>
+        </BootstrapTable>);
+    } else {
+      return (<p>?</p>);
+    }
+  }
+}
 
 const style = {
   sortdate: {
@@ -82,7 +97,8 @@ const style = {
 
 };
 
-//sort tine
+
+//sort ti
 $(document).ready(function(){
   $('#sortbytime').click(function() {
     var menu_text = $('#sortbytime').text().trim();
@@ -114,11 +130,58 @@ export default class AllFilters extends React.Component {
   }
 
 
-  render() {
+
+  handleClearButtonClick = (onClick) => {
+    // Custom your onClick event here,
+    // it's not necessary to implement this function if you have no any process before onClick
+    console.log('This is my custom function for ClearSearchButton click event');
+    onClick();
+  }
+
+  isExpandableRow(row) {
+    if (row.id <90 ) return true;
+    else return false;
+  }
+
+  expandComponent(row) {
+    return (
+      <BSTable data={ row.expand } />
+    );
+  }
+
+  createCustomClearButton = (onClick) => {
+    return (
+      <ClearSearchButton
+        btnText='Clear'
+        btnContextual='btn btn-outline-danger'
+        className='my-custom-class'
+        onClick={ e => this.handleClearButtonClick(onClick) }/>
+    );
+
+
+    // If you want have more power to custom the child of ClearSearchButton,
+    // you can do it like following
+    // return (
+    //   <ClearSearchButton
+    //     btnContextual='btn-warning'
+    //     className='my-custom-class'
+    //     onClick={ () => this.handleClearButtonClick(onClick) }>
+    //     { ... }
+    //   </ClearSearchButton>
+    // );
+  }
+
+  render(){
 
     //pagation
     const options = {
       //page: 2,  // which page you want to show as default
+
+      expandRowBgColor: 'rgb(255, 204, 204)',
+      expandBy: 'column',  // Currently, available value is row and column, default is row
+
+      clearSearch: true,
+      clearSearchBtn: this.createCustomClearButton,
       sizePerPage: 10,  // which size per page you want to locate as default
       pageStartIndex: 0, // where to start counting the pages
       paginationSize: 8,  // the pagination bar size.
@@ -143,25 +206,25 @@ export default class AllFilters extends React.Component {
         <h2 className="article-title" style={style.addproject}>Projects Listing</h2>
         <br/>
         <br/>
-
-
       <div >
         <button style={style.sortdate}
                 className='btn btn-outline-danger '  id="sortbytime" onClick={ this.handleBtnClick } >Sort: Oldest First</button>
+
         <FlatButton  label="Clear Filter" primary={true} onClick={ this.handlerClickCleanFiltered.bind(this) }/>
 
 
-        <BootstrapTable  ref='table' data={ Projects } pagination={true} options={options}>
-          <TableHeaderColumn dataField='id' isKey={ true } width='10%'  dataAlign='center'>
+        <BootstrapTable  class="table table-striped" ref='table' data={ Projects } pagination={true} search options={options}  expandableRow={ this.isExpandableRow } expandComponent={ this.expandComponent }>
+          <TableHeaderColumn dataField='id' isKey={ true } width='10%'  dataAlign='center' expandable={ false }>
             Project ID
           </TableHeaderColumn>
-          <TableHeaderColumn dataSort={true} defaultASC
-                             dataField='createDate' dataFormat={dateFormatter} width='19%'>
+          <TableHeaderColumn dataSort={true}
+                             dataField='createDate' dataFormat={dateFormatter} width='13%' expandable={ false } defaultASC>
             Posting Date
           </TableHeaderColumn>
-          <TableHeaderColumn ref='name1' dataField='name'   filter={ { type: 'TextFilter', placeholder: 'Enter Key Words' } }>Project Title</TableHeaderColumn>
-          <TableHeaderColumn ref='status' dataField='status' width='15%' filter={ { type: 'SelectFilter', options: statusType } } dataFormat={ enumFormatter } formatExtraData={ statusType }>Status</TableHeaderColumn>
-          <TableHeaderColumn ref='createdby' dataField='createdby' width='15%' filter={ { type: 'SelectFilter', options: createdbyType } } dataFormat={ enumFormatter } formatExtraData={ createdbyType }>I am</TableHeaderColumn>
+
+         <TableHeaderColumn ref='name1' dataField='name'   filter={ { type: 'TextFilter', placeholder: 'Enter Key Words' } }>Project Title</TableHeaderColumn>
+          <TableHeaderColumn ref='status' dataField='status' width='12%' filter={ { type: 'SelectFilter', options: statusType } } dataFormat={ enumFormatter } formatExtraData={ statusType }>Status</TableHeaderColumn>
+          <TableHeaderColumn ref='createdby' dataField='createdby' width='12%' filter={ { type: 'SelectFilter', options: createdbyType } } dataFormat={ enumFormatter } formatExtraData={ createdbyType }>Created By</TableHeaderColumn>
           <TableHeaderColumn width='13%' dataField='more'  dataFormat={ moreFormatter  }></TableHeaderColumn>
 
         </BootstrapTable>
