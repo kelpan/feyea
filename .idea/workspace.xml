@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fe80cfd-650c-412b-bba5-ece8c256334d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectDetails/components/projectdetails.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectDetails/components/projects15.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectDetails/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js" afterPath="$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/routes/app/routes/pl/index.js" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewhistory.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="viewhistory.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -31,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectListing.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectListing.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="53" />
+            <state relative-caret-position="462">
+              <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#55#81#0" expanded="true" />
@@ -64,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/material/react-bootsrap/examples/js/expandRow/expand-row-by-column.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="25" column="11" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="11" />
+              <caret line="25" column="11" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -101,8 +104,8 @@
       <find>okCheckbox</find>
       <find>nokCheckbox</find>
       <find>isFiltered</find>
-      <find>textunknown</find>
       <find>BSTable</find>
+      <find>textunknown</find>
     </findStrings>
     <replaceStrings>
       <replace>Project</replace>
@@ -134,8 +137,8 @@
         <option value="$PROJECT_DIR$/material/react-bootsrap/examples/js/others/expose-api-table.js" />
         <option value="$PROJECT_DIR$/material/react-bootsrap/examples/js/column-filter/custom-filter.js" />
         <option value="$PROJECT_DIR$/material/react-bootsrap/src/Const.js" />
-        <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js" />
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js" />
+        <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js" />
       </list>
     </option>
   </component>
@@ -421,12 +424,12 @@
       <updated>1510624129951</updated>
       <workItem from="1510624133170" duration="37332000" />
       <workItem from="1510738873413" duration="1214000" />
-      <workItem from="1510874306732" duration="6306000" />
+      <workItem from="1510874306732" duration="6489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44852000" />
+    <option name="totallyTimeSpent" value="45035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -862,24 +865,9 @@
     <entry file="file://$PROJECT_DIR$/material/react-bootsrap/examples/js/expandRow/expand-row-by-column.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="11" />
+          <caret line="25" column="11" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="25" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="39" column="53" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#55#81#0" expanded="true" />
-            <element signature="n#!!block;n#dateFormatter#0" expanded="false" />
-            <element signature="n#!!block;n#enumFormatter#0" expanded="false" />
-            <element signature="n#!!block;n#dateFormatter#1" expanded="false" />
-            <element signature="n#!!block;n#moreFormatter#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -887,9 +875,24 @@
     <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#55#81#0" expanded="true" />
+            <element signature="n#!!block;n#dateFormatter#0" expanded="false" />
+            <element signature="n#!!block;n#enumFormatter#0" expanded="false" />
+            <element signature="n#!!block;n#dateFormatter#1" expanded="false" />
+            <element signature="n#!!block;n#moreFormatter#0" expanded="false" />
           </folding>
         </state>
       </provider>
