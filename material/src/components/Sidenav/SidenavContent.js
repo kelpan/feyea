@@ -100,6 +100,7 @@ class SidebarContent extends React.Component {
         <li className="nav-header"><span>Project</span></li>
         <li><FlatButton  href="#/app/pl/ProjectListing"><i className="nav-icon material-icons">list</i><span className="nav-text">Projects Listing</span></FlatButton></li>
         <li><FlatButton  href="#/app/pl/Addproject"><i className="nav-icon material-icons">playlist_add</i><span className="nav-text">Add Project</span></FlatButton></li>
+        <li><FlatButton  href="#/app/pl/ProjectDetails"><i className="nav-icon material-icons">art_track</i><span className="nav-text">Project Details</span></FlatButton></li>
         <li><FlatButton  href="#/app/pl/ViewHistory"><i className="nav-icon material-icons">history</i><span className="nav-text">View History</span></FlatButton></li>
 
 

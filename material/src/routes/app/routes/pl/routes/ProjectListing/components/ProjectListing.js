@@ -82,7 +82,7 @@ const style = {
 
 };
 
-//sort tine
+//sort time
 $(document).ready(function(){
   $('#sortbytime').click(function() {
     var menu_text = $('#sortbytime').text().trim();
@@ -161,7 +161,7 @@ export default class AllFilters extends React.Component {
           </TableHeaderColumn>
           <TableHeaderColumn ref='name1' dataField='name'   filter={ { type: 'TextFilter', placeholder: 'Enter Key Words' } }>Project Title</TableHeaderColumn>
           <TableHeaderColumn ref='status' dataField='status' width='15%' filter={ { type: 'SelectFilter', options: statusType } } dataFormat={ enumFormatter } formatExtraData={ statusType }>Status</TableHeaderColumn>
-          <TableHeaderColumn ref='createdby' dataField='createdby' width='15%' filter={ { type: 'SelectFilter', options: createdbyType } } dataFormat={ enumFormatter } formatExtraData={ createdbyType }>I am</TableHeaderColumn>
+          <TableHeaderColumn ref='createdby' dataField='createdby' width='15%' filter={ { type: 'SelectFilter', options: createdbyType } } dataFormat={ enumFormatter } formatExtraData={ createdbyType }>Created by</TableHeaderColumn>
           <TableHeaderColumn width='13%' dataField='more'  dataFormat={ moreFormatter  }></TableHeaderColumn>
 
         </BootstrapTable>
