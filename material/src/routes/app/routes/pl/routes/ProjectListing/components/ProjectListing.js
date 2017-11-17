@@ -26,6 +26,7 @@ function dateFormatter(cell, row) {
   return `${('0' + cell.getDate()).slice(-2)}/${('0' + (cell.getMonth() + 1)).slice(-2)}/${cell.getFullYear()}`;
 }
 
+//generate mock data for testing
 function addProjects(quantity) {
   const startId = Projects.length;
   const startDate = new Date(2015, 0, 1);
@@ -73,7 +74,7 @@ class BSTable extends React.Component {
   render() {
     if (this.props.data) {
       return (
-        <BootstrapTable data={ this.props.data }>
+        <BootstrapTable   data={ this.props.data }>
           <TableHeaderColumn dataField='fieldA' isKey={ true }>Description</TableHeaderColumn>
         </BootstrapTable>);
     } else {
@@ -98,7 +99,7 @@ const style = {
 };
 
 
-//sort ti
+//sort
 $(document).ready(function(){
   $('#sortbytime').click(function() {
     var menu_text = $('#sortbytime').text().trim();
@@ -109,15 +110,14 @@ $(document).ready(function(){
   })
 });
 
-const satisfaction = [ 0, 1, 2, 3, 4, 5 ];
+
 
 export default class AllFilters extends React.Component {
-
 
   constructor(props) {
     super(props);
   }
-
+  //handle sort button
   handleBtnClick = () => {
     if (order === 'desc') {
       this.refs.table.handleSort('asc','createDate');
@@ -129,8 +129,6 @@ export default class AllFilters extends React.Component {
     }
   }
 
-
-
   handleClearButtonClick = (onClick) => {
     // Custom your onClick event here,
     // it's not necessary to implement this function if you have no any process before onClick
@@ -139,7 +137,7 @@ export default class AllFilters extends React.Component {
   }
 
   isExpandableRow(row) {
-    if (row.id <90 ) return true;
+    if (row.id <108 ) return true;
     else return false;
   }
 
