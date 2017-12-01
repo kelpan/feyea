@@ -66,7 +66,7 @@ function dateFormatter(cell, row) {
 }
 
 function moreFormatter(cell, row) {
-  return `<a href="#/app/pl/ViewHistory">Show Details</a> ${cell}`;
+  return `<a href="#/app/pl/ProjectDetails">Show Details</a> ${cell}`;
 }
 
 //row expansion
