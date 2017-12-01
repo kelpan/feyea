@@ -98,7 +98,7 @@ class SidebarContent extends React.Component {
 
         <li className="nav-divider" />
         <li className="nav-header"><span>User</span></li>
-        <li><FlatButton  href="#/app/pl/ProjectListing"><i className="nav-icon material-icons">list</i><span className="nav-text">User Profile</span></FlatButton></li>
+        <li><FlatButton  href="#/app/pl/UserProfile"><i className="nav-icon material-icons">list</i><span className="nav-text">User Profile</span></FlatButton></li>
         <li><FlatButton  href="#/app/pl/LikedProject"><i className="nav-icon material-icons">favorite_boarder</i><span className="nav-text">Liked Projects</span></FlatButton></li>
 
 
