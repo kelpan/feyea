@@ -39,6 +39,13 @@ class NavRightList extends React.Component {
               leftIcon={<i className="material-icons">person_outline</i>}
                         />
             <MenuItem
+              value="/app/pl/LikedProjects"
+              primaryText="Liked Projects"
+              innerDivStyle={listItemStyle}
+              style={{fontSize: '14px', lineHeight: '48px'}}
+              leftIcon={<i className="material-icons">favorite_boarder</i>}
+            />
+            <MenuItem
               value="/login"
               primaryText="Log Out"
               innerDivStyle={listItemStyle}
