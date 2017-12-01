@@ -36,9 +36,10 @@ function addProjects(quantity) {
     const id = startId + i;
     Projects.push({
       id: id,
-      name: '+ Project title ' + id,
+      name: 'Project title ' + id,
       status: Math.floor((Math.random() * 100) + 1)%2,
       createdby: Math.floor((Math.random() * 100) + 1) % 4,
+      professor: 'Prof' + id,
       createDate: date,
       more: '&nbsp;',
       expand: [ {
@@ -66,7 +67,7 @@ function dateFormatter(cell, row) {
 }
 
 function moreFormatter(cell, row) {
-  return `<a href="#/app/pl/ViewHistory">Show Details</a> ${cell}`;
+  return `<a href="#/app/pl/ProjectDetails">Show Details</a> ${cell}`;
 }
 
 //row expansion
@@ -167,6 +168,19 @@ export default class AllFilters extends React.Component {
     //     { ... }
     //   </ClearSearchButton>
     // );
+
+  }
+  expandColumnComponent({ isExpandableRow, isExpanded }) {
+    let content = '';
+
+    if (isExpandableRow) {
+      content = (isExpanded ? 'Hide' : 'Description' );
+    } else {
+      content = ' ';
+    }
+    return (
+      <div> { content } </div>
+    );
   }
 
   render(){
@@ -211,19 +225,61 @@ export default class AllFilters extends React.Component {
         <FlatButton  label="Clear Filter" primary={true} onClick={ this.handlerClickCleanFiltered.bind(this) }/>
 
 
-        <BootstrapTable  class="table table-striped" ref='table' data={ Projects } pagination={true} search options={options}  expandableRow={ this.isExpandableRow } expandComponent={ this.expandComponent }>
-          <TableHeaderColumn dataField='id' isKey={ true } width='10%'  dataAlign='center' expandable={ false }>
-            Project ID
-          </TableHeaderColumn>
-          <TableHeaderColumn dataSort={true}
-                             dataField='createDate' dataFormat={dateFormatter} width='13%' expandable={ false } defaultASC>
-            Posting Date
+        <BootstrapTable  class="table table-striped"
+                         ref='table' data={ Projects }
+                         pagination={true}
+                         search options={options}
+                         expandableRow={ this.isExpandableRow }
+                         expandComponent={ this.expandComponent }
+                         expandColumnOptions={ {
+                           expandColumnVisible: true,
+                           expandColumnComponent: this.expandColumnComponent,
+                           columnWidth: 90
+                         } }>
+
+          <TableHeaderColumn dataField='id'
+                             isKey={ true }
+                             width='5%'
+                             dataAlign='center'
+                             expandable={ false }>ID
           </TableHeaderColumn>
 
-         <TableHeaderColumn ref='name1' dataField='name'   filter={ { type: 'TextFilter', placeholder: 'Enter Key Words' } }>Project Title</TableHeaderColumn>
-          <TableHeaderColumn ref='status' dataField='status' width='12%' filter={ { type: 'SelectFilter', options: statusType } } dataFormat={ enumFormatter } formatExtraData={ statusType }>Status</TableHeaderColumn>
-          <TableHeaderColumn ref='createdby' dataField='createdby' width='12%' filter={ { type: 'SelectFilter', options: createdbyType } } dataFormat={ enumFormatter } formatExtraData={ createdbyType }>Created By</TableHeaderColumn>
-          <TableHeaderColumn width='13%' dataField='more'  dataFormat={ moreFormatter  }></TableHeaderColumn>
+          <TableHeaderColumn dataSort={true}
+                             dataField='createDate'
+                             dataFormat={dateFormatter}
+                             width='13%'
+                             expandable={ false }
+                             defaultASC>Posting Date
+          </TableHeaderColumn>
+
+         <TableHeaderColumn ref='name1'
+                            dataField='name'
+                            filter={ { type: 'TextFilter', placeholder: 'Enter Key Words' } }>Project Title
+         </TableHeaderColumn>
+
+          <TableHeaderColumn ref='professor'
+                             dataField='professor'
+                             filter={ { type: 'TextFilter', placeholder: 'Enter Prof Name' } }
+                             expandable={false}>Supervisor
+          </TableHeaderColumn>
+
+          <TableHeaderColumn ref='status'
+                             dataField='status'
+                             width='12%'
+                             filter={ { type: 'SelectFilter', options: statusType } } dataFormat={ enumFormatter }
+                             formatExtraData={ statusType }>Status
+          </TableHeaderColumn>
+
+          <TableHeaderColumn ref='createdby'
+                             dataField='createdby'
+                             width='12%'
+                             filter={ { type: 'SelectFilter', options: createdbyType } } dataFormat={ enumFormatter }
+                             formatExtraData={ createdbyType }>Created By
+          </TableHeaderColumn>
+
+          <TableHeaderColumn width='10%'
+                             dataField='more'
+                             dataFormat={ moreFormatter  }></TableHeaderColumn>
 
         </BootstrapTable>
 
