@@ -6,9 +6,14 @@ import Visibility from 'material-ui/svg-icons/action/visibility';
 import VisibilityOff from 'material-ui/svg-icons/action/visibility-off';
 import QueueAnim from 'rc-queue-anim';
 import ReactTooltip from 'react-tooltip'
+import RaisedButton from 'material-ui/RaisedButton';
 
 import ReactDOM from "react-dom";
 import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn, TableFooter} from 'material-ui/Table';
+
+const mWidthStyle = {
+		  minWidth: '135px'
+		};
 
 const projectData = [
 	  {
@@ -48,12 +53,21 @@ class Details extends React.Component {
 						      <h1 className="hero-title">Student Name</h1>
 						    </div>
 						    <p className="text-muted">Student</p>
+<<<<<<< HEAD
 
+=======
+						      <RaisedButton style={mWidthStyle} label="Edit Profile" /><div className="divider" />
+						    
+>>>>>>> 407d13cb2ae6253688d90c3e04a59cafc17f1beb
 						  </section>
 						  <article className="article padding-lg-v article-dark article-bordered">
 
 						    <div className="container-fluid with-maxwidth-sm">
+<<<<<<< HEAD
 
+=======
+						      
+>>>>>>> 407d13cb2ae6253688d90c3e04a59cafc17f1beb
 						      <h4>Interested Area</h4>
 						      <p>Software, Hardware</p>
 
