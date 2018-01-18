@@ -104,7 +104,7 @@ $(document).ready(function(){
   $('#sortbytime').click(function() {
     var menu_text = $('#sortbytime').text().trim();
     if(menu_text=='Sort: Newest First')
-      $("#sortbytime").text('Sort: Oldes First');
+      $("#sortbytime").text('Sort: Oldest First');
     else
       $("#sortbytime").text('Sort: Newest First');
   })
