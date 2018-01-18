@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4fe80cfd-650c-412b-bba5-ece8c256334d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/assets/3.1f27716cdf6ce9b1b5cf.chunk.js" afterPath="$PROJECT_DIR$/dist/assets/3.1f27716cdf6ce9b1b5cf.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/package-lock.json" afterPath="$PROJECT_DIR$/material/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/package.json" afterPath="$PROJECT_DIR$/material/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/components/Header/NavRightList.js" afterPath="$PROJECT_DIR$/material/src/components/Header/NavRightList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js" afterPath="$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/routes/app/routes/form/routes/components/components/RadioButton.js" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/form/routes/components/components/RadioButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/routes/app/routes/pl/index.js" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/UserProfile/components/userprofile.js" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/UserProfile/components/userprofile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js" afterPath="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,139 +20,142 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewhistory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="29" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SidenavContent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="101" column="109" lean-forward="false" selection-start-line="101" selection-start-column="109" selection-end-line="101" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectDetails/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavRightList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/components/Header/NavRightList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="45" column="70" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="likedproject.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/components/likedproject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/AddProject/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectListing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="224" column="40" lean-forward="false" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="40" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#55#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.8733126">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="viewhistory.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="72">
+                  <caret line="4" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <marker date="1512234744000" expanded="true" signature="207:221" ph="[...]" />
+                    <marker date="1512234744000" expanded="true" signature="510:533" ph="[...]" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SidenavContent.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2034">
+                  <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="projects15.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/UserProfile/components/projects15.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="72">
+                  <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="userprofile.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/UserProfile/components/userprofile.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="954">
+                  <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NavRightList.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material/src/components/Header/NavRightList.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="18">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="54">
+                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProjectListing.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="554">
+                  <caret line="225" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#55#81#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="likedproject.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/components/likedproject.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1368">
+                  <caret line="78" column="52" lean-forward="false" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="viewhistory.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="648">
+                  <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <marker date="1512234744000" expanded="true" signature="207:221" ph="[...]" />
+                    <marker date="1512234744000" expanded="true" signature="510:533" ph="[...]" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>insto</find>
-      <find>textOK</find>
-      <find>SelectFilter</find>
-      <find>okCheckbox</find>
-      <find>nokCheckbox</find>
-      <find>isFiltered</find>
-      <find>BSTable</find>
-      <find>show detai</find>
-      <find>textunknown</find>
-      <find>import</find>
       <find>yes</find>
       <find>cleanFiltered</find>
       <find>View</find>
       <find>Not OK</find>
       <find>select you</find>
       <find>handleSelectChange</find>
-      <find>toggleCheckbox</find>
       <find>getInitialState</find>
       <find>formater</find>
       <find>table proper</find>
@@ -171,6 +169,17 @@
       <find>isExpandableRow</find>
       <find>about</find>
       <find>clear filter</find>
+      <find>Teamme</find>
+      <find>options</find>
+      <find>toggleCheckbox</find>
+      <find>MultiSelectField</find>
+      <find>Teammer</find>
+      <find>dateFormatter</find>
+      <find>kell</find>
+      <find>ke</find>
+      <find>Newest</find>
+      <find>oldes</find>
+      <find>first</find>
     </findStrings>
     <replaceStrings>
       <replace>Project</replace>
@@ -204,16 +213,17 @@
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/form/routes/components/components/RadioButton.js" />
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/test" />
         <option value="$PROJECT_DIR$/material/react-bootsrap/examples/js/remote/remote-store-filtering.js" />
-        <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js" />
-        <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js" />
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/likedProjects/components/About.js" />
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/likedProjects/components/Liked.js" />
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/likedProjects/index.js" />
         <option value="$PROJECT_DIR$/material/src/components/Header/NavRightList.js" />
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/index.js" />
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/index.js" />
-        <option value="$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js" />
         <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/components/likedproject.js" />
+        <option value="$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js" />
+        <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/UserProfile/components/userprofile.js" />
+        <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js" />
+        <option value="$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js" />
       </list>
     </option>
   </component>
@@ -349,49 +359,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feyea" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feyea" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feyea" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feyea" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
@@ -413,56 +381,6 @@
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="pl" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feyea" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="AddProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feyea" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="AddProject" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feyea" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="LikedProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="feyea" type="462c0819:PsiDirectoryNode" />
-              <item name="material" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="LikedProject" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
@@ -488,6 +406,13 @@
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="ProjectListing" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feyea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feyea" type="462c0819:PsiDirectoryNode" />
+              <item name="material" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -537,29 +462,30 @@
       <workItem from="1510738873413" duration="1214000" />
       <workItem from="1510874306732" duration="26674000" />
       <workItem from="1512055562666" duration="7564000" />
-      <workItem from="1512076668097" duration="1935000" />
+      <workItem from="1512076668097" duration="5869000" />
+      <workItem from="1516075099080" duration="604000" />
+      <workItem from="1516077602847" duration="3546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74719000" />
+    <option name="totallyTimeSpent" value="82803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16123907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15488483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -583,20 +509,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/material/react-bootsrap/src/Const.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material/react-bootsrap/examples/js/remote/remote-search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="94" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/material/src/components/Sidenav/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="954">
@@ -699,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +650,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -784,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="7511" column="35" lean-forward="true" selection-start-line="7511" selection-start-column="35" selection-end-line="7511" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,9 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="5405" column="31" lean-forward="false" selection-start-line="5405" selection-start-column="31" selection-end-line="5405" selection-end-column="31" />
-          <folding>
-            <marker date="1510642477000" expanded="true" signature="347717:347723" ph=" " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="422" column="6" lean-forward="false" selection-start-line="422" selection-start-column="6" selection-end-line="422" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,21 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectDetails/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,43 +764,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1408">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/likedProjects/components/Liked.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/likedProjects/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/likedProjects/components/Liked.js" />
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/likedProjects/index.js" />
     <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/AddProject/components/addproject.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2956">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -917,44 +788,66 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#55#81#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js">
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/UserProfile/components/projects15.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="224" column="40" lean-forward="false" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#55#81#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/AddProject/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material/src/components/Header/NavRightList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/src/components/Header/NavRightList.js">
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/components/likedproject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="45" column="70" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="70" />
+        <state relative-caret-position="1368">
+          <caret line="78" column="52" lean-forward="false" selection-start-line="78" selection-start-column="52" selection-end-line="78" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/UserProfile/components/userprofile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -963,26 +856,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/material/src/components/Sidenav/SidenavContent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="101" column="109" lean-forward="false" selection-start-line="101" selection-start-column="109" selection-end-line="101" selection-end-column="109" />
+        <state relative-caret-position="2034">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/index.js">
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ProjectListing/components/ProjectListing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/LikedProject/components/likedproject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        <state relative-caret-position="554">
+          <caret line="225" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#55#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material/src/routes/app/routes/pl/routes/ViewHistory/components/viewhistory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1512234744000" expanded="true" signature="207:221" ph="[...]" />
+            <marker date="1512234744000" expanded="true" signature="510:533" ph="[...]" />
           </folding>
         </state>
       </provider>

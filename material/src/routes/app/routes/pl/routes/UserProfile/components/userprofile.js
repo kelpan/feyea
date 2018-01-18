@@ -34,9 +34,9 @@ const styles = {
 
 
 class Details extends React.Component {
-	
+
 	render(){
-		
+
 		const hasProjectNumber = 1;
 
 		// if project id is specified
@@ -45,27 +45,27 @@ class Details extends React.Component {
 					  <div>
 						  <section className="hero">
 						    <div className="hero-content">
-						      <h1 className="hero-title">Teammember</h1>
+						      <h1 className="hero-title">Student Name</h1>
 						    </div>
 						    <p className="text-muted">Student</p>
-						    
+
 						  </section>
 						  <article className="article padding-lg-v article-dark article-bordered">
 
 						    <div className="container-fluid with-maxwidth-sm">
-						      
-						      <h4>Related Area</h4>
+
+						      <h4>Interested Area</h4>
 						      <p>Software, Hardware</p>
-						      
-						      
-						      <h4>Projects you may also like...</h4>
-						      
+
+
+						      <h4>Projects you may like...</h4>
+
 						    </div>
 						  </article>
 						 </div>
 						 );
 		  }
-		  
+
 		  // if project id is not specified
 		  return (
 				  <div>

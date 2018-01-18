@@ -5,16 +5,15 @@ import Select from 'react-select';
 import 'react-select/dist/react-select.css';
 
 const FLAVOURS = [
-  { label: 'Chocolate', value: 'chocolate' },
-  { label: 'Vanilla', value: 'vanilla' },
-  { label: 'Strawberry', value: 'strawberry' },
-  { label: 'Caramel', value: 'caramel' },
-  { label: 'Cookies and Cream', value: 'cookiescream' },
-  { label: 'Peppermint', value: 'peppermint' },
+  { label: 'Software', value: 'Software' },
+  { label: 'Hardware', value: 'Hardware' },
+  { label: 'Digital', value: 'Digital' },
+  { label: 'SIgnal', value: 'SIgnal' },
+  { label: 'Electronic', value: 'Electronic' },
 ];
 
 const WHY_WOULD_YOU = [
-  { label: 'Chocolate (are you crazy?)', value: 'chocolate', disabled: true },
+  { label: 'Software (are you crazy?)', value: 'Software', disabled: true },
 ].concat(FLAVOURS.slice(1));
 
 var MultiSelectField = createClass({
