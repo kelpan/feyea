@@ -48,9 +48,6 @@ class Header extends React.Component {
             <NavLeftList />
           </div>
 
-          <div className="top-nav-right">
-            <NavRightList />
-          </div>
         </div>
       </section>
     );

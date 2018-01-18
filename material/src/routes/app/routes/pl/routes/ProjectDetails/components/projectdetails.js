@@ -1,4 +1,9 @@
 import React from 'react';
+import Checkbox from 'material-ui/Checkbox';
+import ActionFavorite from 'material-ui/svg-icons/action/favorite';
+import ActionFavoriteBorder from 'material-ui/svg-icons/action/favorite-border';
+import Visibility from 'material-ui/svg-icons/action/visibility';
+import VisibilityOff from 'material-ui/svg-icons/action/visibility-off';
 import QueueAnim from 'rc-queue-anim';
 import ReactTooltip from 'react-tooltip'
 
@@ -18,6 +23,16 @@ const projectData = [
 	  }
 	];
 
+
+const styles = {
+  checkbox: {
+    maxWidth: 150,
+    marginBottom: 16,
+    display:'inline-block'
+  }
+};
+
+
 class Details extends React.Component {
 	
 	render(){
@@ -33,6 +48,12 @@ class Details extends React.Component {
 						      <h1 className="hero-title">ECE496 project finder</h1>
 						    </div>
 						    <p className="text-muted">Saturday, September 24, 2016 5:02 PM by student</p>
+						    
+						      <Checkbox
+						        checkedIcon={<ActionFavorite />}
+						        uncheckedIcon={<ActionFavoriteBorder />}
+						        label="like to save"
+						        style={styles.checkbox} />
 						  </section>
 						  <article className="article padding-lg-v article-dark article-bordered">
 
@@ -47,6 +68,7 @@ class Details extends React.Component {
 						      <h4>Description</h4>
 						      <p>This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.This will be the long long description.</p>
 
+						      
 						      <h4>Liked by</h4>
 
 						      <h4>Discussion Area</h4>
